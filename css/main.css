@@ -48,11 +48,11 @@ header nav {
     padding: 80px 0;
 }
 
-.message-wrapper .title {
+.title {
     text-align: center;
 }
 
-.message-wrapper .title h2 {
+.title h2 {
     display: inline-block;
     margin-bottom: 70px;
     font: normal normal bold 32px/48px Meiryo;
@@ -80,4 +80,64 @@ header nav {
 .message p {
     font: normal normal normal 14px/21px Meiryo;
     color: #383E45;
+}
+
+.blog-wrapper {
+    margin-bottom: 100px;
+}
+
+.blog-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.blog-item {
+    text-align: center;
+}
+
+.blog-item h4 {
+    font: normal normal bold 16px/24px Meiryo;
+    color: #383E45;
+}
+
+.blog-item p {
+    font: normal normal normal 14px/21px Meiryo;
+    color: #383E45;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #383E45;
+}
+
+.detail-message {
+    margin: 30px;
+}
+
+.detail-message h2 {
+    margin-bottom: 30px;
+    font: normal normal bold 22px/22px Meiryo;
+    color: #383E45;
+}
+
+.detail-message .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail-message p {
+    font: normal normal normal 14px/24px Meiryo;
+    color: #383E45;
+}
+
+.back-link {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.back-link a {
+    font: normal normal normal 14px/24px Meiryo;
 }
